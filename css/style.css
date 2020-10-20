@@ -1,0 +1,8 @@
+.skyjpg{width: 100%; height: 100%; position: relative; z-index: 1}
+.plane{z-index: 2;  position: absolute; left: 0px; bottom: 0px; width: 350px; animation: mymove 4s infinite}
+.planepng{ width: 350px}
+.portaldiv1{z-index: 2;  position: absolute;left:60%; top:50%;  width: 350px; display: inline-block; transform:translate(-60%;-50%); }
+.portaldiv2{z-index: 2;  position: absolute;left:30%; top:50%; width: 350px; display: inline-block; transform:translate(-30%;-50%)}
+.portal1{width: 350px;}
+.portal2{width: 350px;}
+@keyframes mymove{0%{bottom:0px; left: 0px;  }33%{top: 50%; left:30%; visibility: hidden; }66%{top: 50%; left: 60%; visibility: collapse; } 100%{top: 0%; left:100%} 
